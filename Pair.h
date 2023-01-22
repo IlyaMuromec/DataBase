@@ -2,7 +2,7 @@
 
 class Pair
 {
-	MyString key; // key is lastname of employee
+	MyString key; // unique key is lastname of employee
 	MyData data; // data of employee
 
 	Pair& operator=(const Pair&);

@@ -138,7 +138,7 @@ void Base::deletePair(const char* key)
 	{
 		for (size_t i = num; i < m_n-1; i++)
 		{
-			pBase[i] = pBase[i + 1];
+			pBase[i] = pBase[i + 1]; // overwrite the removed element
 		}
 		pBase[m_n-1].data = MyData(MyData::UNDEF, 0, "enpty", 0);
 		m_n--;

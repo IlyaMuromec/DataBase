@@ -2,9 +2,9 @@
 
 class Base
 {
-	size_t m_n; // max number of employees in database
-	size_t m_cap; // number of employees in database
-	Pair* pBase ; // point on database
+	size_t m_n; // number of employees in database
+	size_t m_cap; // max number of employees in database
+	Pair* pBase ; // point on instance of class Pair which describe some employee
 
 public:
 	
@@ -18,7 +18,7 @@ public:
 	
 	MyData& operator[](const char* key); // operator is used to get exist data and set new data
 
-	void deletePair(const char* key); // 
+	void deletePair(const char* key); 
 
 	friend std::ostream& operator<<(std::ostream& os, Base& b);
 };
