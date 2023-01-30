@@ -1,6 +1,6 @@
 # Database
 Database is study project. Database is inplemented base on associative array with data of employees.
-Class Base implement array of Pair. Class Pair contain key and data for each employee. Key is last name of employee.
+Class Base conteins array of Pair. Class Pair contain key and data for each employee. Key is last name of employee.
 
 Available actions for Base: 
 - adding employees to the database, 
